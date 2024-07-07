@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Latest-Website/static/css/main.63ca2f7e.css",
+    "main.js": "/Latest-Website/static/js/main.0aa22870.js",
+    "static/media/Gangadharam Resume.pdf": "/Latest-Website/static/media/Gangadharam Resume.3ce2e2999a10e6c9a03a.pdf",
+    "static/media/project-3.png": "/Latest-Website/static/media/project-3.d5bf2eac8c8937a85bc3.png",
+    "static/media/project-2.png": "/Latest-Website/static/media/project-2.2f15d9f817c3b4924ae6.png",
+    "static/media/project-1.png": "/Latest-Website/static/media/project-1.0009f408e02c21b12607.png",
+    "static/media/Gangadharam.jpg": "/Latest-Website/static/media/Gangadharam.69c04bc3cc02be1e0169.jpg",
+    "static/media/GSM.jpg": "/Latest-Website/static/media/GSM.0826515ed95acd90b2b6.jpg",
+    "static/media/email.png": "/Latest-Website/static/media/email.761df3bc69bdc631bd2f.png",
+    "static/media/checkmark.png": "/Latest-Website/static/media/checkmark.86728d9a224a2c7c95d4.png",
+    "static/media/arrow.png": "/Latest-Website/static/media/arrow.0dfabb0beab795eea0ab.png",
+    "static/media/linkedin.png": "/Latest-Website/static/media/linkedin.032cf8a63be2f0f4d425.png",
+    "index.html": "/Latest-Website/index.html",
+    "main.63ca2f7e.css.map": "/Latest-Website/static/css/main.63ca2f7e.css.map",
+    "main.0aa22870.js.map": "/Latest-Website/static/js/main.0aa22870.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63ca2f7e.css",
+    "static/js/main.0aa22870.js"
+  ]
+}
