@@ -1,0 +1,81 @@
+/* src/AnalogClock/AnalogClock.css */
+
+.clock {
+    width: 250px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+    border: 10px solid #fff;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #848484;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.num {
+    position: absolute;
+    height: 100px;
+}
+
+.num span {
+    width: 16px;
+    height: 32px;
+    line-height: 32px;
+    color: rgb(133, 131, 131);
+    text-align: center;
+    vertical-align: middle;
+}
+
+.num1 {
+    transform: rotate(30deg);
+}
+
+.num1 span {
+    transform: rotate(-30deg);
+}
+
+/* Add similar styles for num2 to num12 */
+
+.sec-hand {
+    width: 1px;
+    height: 50%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    border-radius: 100% 100% 0 0;
+    background-color: #ff6767;
+    transform-origin: 50% 80%;
+}
+
+.min-hand {
+    width: 3px;
+    height: 40%;
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform-origin: 50% 80%;
+    border-radius: 100% 100% 0 0;
+    background-color: #d6d6d6;
+}
+
+.hr-hand {
+    width: 5px;
+    height: 25%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    border-radius: 100% 100% 0 0;
+    background-color: #d6d6d6;
+    transform-origin: 50% 80%;
+}

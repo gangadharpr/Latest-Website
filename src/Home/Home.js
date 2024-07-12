@@ -1,13 +1,63 @@
-import React from "react";
+import React from 'react';
+import Digital from './Digital';
 
-let Portfolio=()=>{
+const Home = () => {
     return (
         <div>
-            
+            <div className="container mt-5">
+                <div className="row">
+                    <div className="col-4">
+                        <h4 className="bg-primary">SOFTWARE DEVELOPMENT</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam autem impedit, quaerat atque quod ut? Ut veniam, deleniti quisquam reprehenderit nesciunt, doloremque fuga quo fugiat a beatae, aut hic non.</p>
+                    </div>
+                    <div className="col-4">
+                        <h4>MOBILE APP DEVELOPMENT</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga quos ducimus dicta, earum deleniti neque officia tempora accusamus quod asperiores pariatur! Consectetur vel molestias at. Possimus unde fugiat officiis veniam.</p>
+                    </div>
+                    <div className="col-4">
+                        <h4>Offshore Team Development</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam debitis qui necessitatibus autem possimus provident libero voluptates reiciendis saepe, in laborum, nemo minima sit quidem praesentium, culpa facere voluptatibus dolorem.</p>
+                    </div>
+                </div>
 
+                <div className="row">
+                    <div className="col-4">
+                        <h3>India</h3>
+                        <Digital /> 
+                    </div>
 
+                    <div className="col-4">
+                        <h3>America</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quae error excepturi exercitationem tempore incidunt magnam delectus praesentium! Quis placeat dolores exercitationem sapiente dolorum, delectus quibusdam nemo temporibus ratione fugiat.</p>
+                    </div>
+
+                    <div className="col-4">
+                        <h3>Germany</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quae error excepturi exercitationem tempore incidunt magnam delectus praesentium! Quis placeat dolores exercitationem sapiente dolorum, delectus quibusdam nemo temporibus ratione fugiat.</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div className="container">
+                <div className="row">
+                    <div className="col-4">
+                        
+                    </div>
+
+                    <div className="col-4">
+
+                    </div>
+
+                    <div className="col-4">
+                    <p>Copyright © 2024 Gangadharam Vaddi. All Rights Reserved.</p>
+                    
+                    </div>
+
+                </div>
+            </div>
         </div>
-    )
-}
+    );
+};
 
-export default Portfolio
+export default Home;
